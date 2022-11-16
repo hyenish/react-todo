@@ -17,7 +17,7 @@ const Todo = ({ todo, onUpdate, onDelete }) => {
 				className={styles.checkbox}
 				type="checkbox"
 				id={id}
-				checked={status == "completed"}
+				checked={status === "completed"}
 				onChange={handleChange}
 			/>
 			<label className={styles.text} htmlFor={id}>
